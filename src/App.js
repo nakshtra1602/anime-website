@@ -26,7 +26,7 @@ function App() {
     let i = 0;
     let naks = [];
     temp.data.map((element) => {
-      if (i < iteration * 6) {
+      if (i < iteration * 8) {
         naks.push(element);
         console.log(element);
       }
