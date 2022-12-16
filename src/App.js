@@ -52,7 +52,7 @@ function App() {
           className="button"
           id="new-button"
           onClick={() => {
-            setiteration(++iteration);
+            setiteration( ++iteration);
             HandleSearch(0);
           }}
         >
