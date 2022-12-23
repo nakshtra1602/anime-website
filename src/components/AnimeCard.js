@@ -11,8 +11,9 @@ function AnimeCard({anime}) {
 					<img 
 						src={anime.images.jpg.image_url} 
 						alt="Anime Image" />
-				</figure>
+				{/* </figure> */}
 				<h3>{ anime.title }</h3>
+				</figure>
 			</a>
 		</article>
 	)
